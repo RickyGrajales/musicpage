@@ -1,0 +1,65 @@
+/* Events.css */
+
+/* Estilo global para la fuente retro */
+body {
+    font-family: 'Verdana', sans-serif; /* Cambia a una fuente retro si la tienes disponible */
+    background-color: #f0e5d8; /* Fondo general retro */
+  }
+  
+  /* Estilos para la sección principal de eventos */
+  .retro-main {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .retro-section {
+    /* Fondo retro para la sección */
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Estilos para el encabezado */
+  .retro-heading {
+    color: #e74c3c;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 2rem;
+
+  }
+  
+  /* Estilos para la lista de eventos */
+  .retro-event-list {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .retro-event-item {
+    background-color: rgba(184, 134, 11, 0.8); /* Fondo de cada evento con transparencia */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #d35400;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Lucida Console', Monaco, monospace; /* Fuente retro */
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  
+  /* Añade animación de hover */
+  .retro-event-item:hover {
+    background-color: #f39c12;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+  }
+  

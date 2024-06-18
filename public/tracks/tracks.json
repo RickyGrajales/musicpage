@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Canción Ejemplo 1",
+      "description": "Esta es la descripción de la Canción Ejemplo 1.",
+      "audioUrl": "/tracks/BlackHeartInertia.mp3",
+      "imageUrl": "/images/incubus1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Canción Ejemplo 2",
+      "description": "Esta es la descripción de la Canción Ejemplo 2.",
+      "audioUrl": "/tracks/ejemplo2.mp3",
+      "imageUrl": "/images/ejemplo2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Canción Ejemplo 3",
+      "description": "Esta es la descripción de la Canción Ejemplo 3.",
+      "audioUrl": "/tracks/ejemplo3.mp3",
+      "imageUrl": "/images/ejemplo3.jpg"
+    }
+  ]
+  

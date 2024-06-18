@@ -1,5 +1,5 @@
 // src/components/MainImage.js
-import React from 'react';
+import React from "react";
 
 const MainImage = () => (
   <div className="main-image">

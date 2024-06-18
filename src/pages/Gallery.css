@@ -1,0 +1,76 @@
+/* Gallery.css */
+
+/* Estilo general para la sección de galería */
+.gallery-section {
+    background-image: url(../assets/music_guitar.jpg);
+    background-color:blanchedalmond; /* Fondo de color cálido */
+    padding: 100px;
+    text-align: center;
+  }
+  
+  /* Estilo retro para el encabezado */
+  .retro-heading {
+    color: #e74c3c; /* Rojo cálido */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px #d35400;
+  }
+  
+  /* Contenedor de la galería */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Estilo retro para cada ítem de la galería */
+  .gallery-item {
+    width: calc(33.333% - 20px); /* Tres ítems por fila con espacio */
+    max-width: 300px; /* Limita el tamaño máximo */
+    text-align: center;
+  }
+  
+  /* Estilo retro para cada imagen */
+  .retro-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    object-fit: cover; /* Ajusta la imagen sin distorsionar */
+  }
+  
+  /* Estilo para las descripciones de las imágenes */
+  .image-description {
+    color: #2c3e50;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para la descripción */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Efecto hover retro */
+  .retro-image:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Media queries para ajustar el diseño en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .gallery-item {
+      width: calc(50% - 20px); /* Dos ítems por fila en pantallas medianas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-item {
+      width: 100%; /* Un ítem por fila en pantallas pequeñas */
+    }
+  }
+  
+  
